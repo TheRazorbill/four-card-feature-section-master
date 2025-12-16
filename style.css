@@ -45,3 +45,11 @@ body {
     color: var(--grey-500);
     margin-bottom: 1rem;
 }
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1150px;
+}
