@@ -38,3 +38,10 @@ body {
     font-size: 2.2rem;
     color: var(--grey-500)
 }
+
+.title-bold {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: var(--grey-500);
+    margin-bottom: 1rem;
+}
