@@ -107,3 +107,18 @@ body {
     grid-row: 1 / span 2;
     align-self: center;
 }
+
+@media (max-width: 950px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .supervisor,
+    .team-builder,
+    .karma,
+    .calculator {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
