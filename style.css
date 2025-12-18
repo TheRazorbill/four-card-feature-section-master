@@ -53,3 +53,31 @@ body {
     gap: 30px;
     max-width: 1150px;
 }
+
+.card {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 15px 30px -10px rgba(131, 166, 210, 0.5);
+    border-top: 5px solid transparent;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    color: var(--grey-500);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: var(--grey-400);
+    font-size: 0.85rem;
+    line-height: 1.6rem;
+}
+
+.card img {
+    align-self: flex-end;
+    margin-top: 2rem;
+}
