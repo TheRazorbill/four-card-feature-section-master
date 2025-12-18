@@ -26,6 +26,13 @@ body {
     padding: 4rem 2rem;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header-content {
     text-align: center;
     max-width: 500px;
@@ -36,7 +43,7 @@ body {
 .title-light {
     font-weight: 200;
     font-size: 2.2rem;
-    color: var(--grey-500)
+    color: var(--grey-500);
 }
 
 .title-bold {
@@ -106,6 +113,10 @@ body {
     grid-column: 3;
     grid-row: 1 / span 2;
     align-self: center;
+}
+
+.attribution {
+    margin-top: 4rem;
 }
 
 @media (max-width: 950px) {
