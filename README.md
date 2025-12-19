@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://github.com/TheRazorbill)
+- Live Site URL: [URL here](https://therazorbill.github.io/four-card-feature-section-master/)
 
 ## My process
 
